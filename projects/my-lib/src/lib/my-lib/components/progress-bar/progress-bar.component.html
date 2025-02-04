@@ -1,0 +1,5 @@
+@if(progress !== null) {
+    <mat-progress-bar [value]="progress" mode="determinate" color="primary"></mat-progress-bar>
+} @else {
+    <div [style.height.px]="progress !== null ? 0 : 4"></div>
+}

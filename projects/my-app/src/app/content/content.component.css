@@ -1,0 +1,11 @@
+.horizontal-container {
+    display: flex;
+    gap: 4px;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 16px;
+}

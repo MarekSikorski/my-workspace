@@ -1,0 +1,21 @@
+<div class="vertical-container">
+
+    <div class="horizontal-container">
+        <button mat-stroked-button (click)="start()">Start</button>
+        <button mat-stroked-button (click)="update()">Update</button>
+        <button mat-stroked-button (click)="complete()">Complete</button>
+    </div>
+
+    <div class="horizontal-container">
+        @if(title) {
+        <span>{{ title }}</span>
+        }
+
+        @if(progress) {
+        <span>{{ progress }}%</span>
+        }
+    </div>
+
+    <lib-progress-bar></lib-progress-bar>
+
+</div>
